@@ -43,7 +43,18 @@ h1 {
 }
 
 h4.name-header {
-    color: #ffa724;
+    color: #f1dd20;
+}
+
+h4.name-header:before {
+    position: absolute;
+    width: 30px;
+    left: -40px;
+    content: "";
+    display: block;
+    height: 2px;
+    background: #f1dd20;
+    top: 9px;
 }
 
 h4 {
@@ -88,6 +99,14 @@ body {
 
 .h-40 {
     height: 40px;
+}
+
+.h-30 {
+    height: 30px;
+}
+
+.h-20 {
+    height: 20px;
 }
 
 
@@ -240,7 +259,8 @@ header {
 }
 
 nav ul {
-    display: inline-block;
+    /* display: inline-block; */
+    /* display: flex; */
     padding-left: 0;
     list-style: none;
     padding: 20px;
@@ -257,9 +277,33 @@ nav li {
 nav li a {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #444;
+    /* color: #444; */
+    color: lightgray;
     font-size: 15px;
     font-weight: bold;
+}
+
+/* nav li img.contact-icon {
+    margin-left: 5em;
+} */
+
+.nav-class {
+    display: inline-block;
+    text-align: center;
+    padding-left: 0;
+    list-style: none;
+    padding: 15px;
+    margin-bottom: 0;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.contact-icon {
+    margin-bottom: 10px;
+}
+
+.social {
+    display: inline-block;
 }
 
 .bg-nav {
@@ -290,7 +334,7 @@ a.active {
 ==================================================*/
 
 #home {
-    /* background: url(../img/pisa.jpg); */
+    background: url(../img/seoul.jpg);
     background-size: cover;
     height: 100vh;
 }
@@ -308,10 +352,15 @@ a.active {
 h1.engineer {
     margin-top: -20px;
     margin-left: 120px;
+    /* color: white; */
+    color: lightgray;
 }
 
 h1.software, h1.engineer {
     font-style: italic;
+    /* color: white; */
+    color: lightgray;
+    
 }
 
 
@@ -322,8 +371,20 @@ h1.software, h1.engineer {
     padding: 100px 0;
 }
 
+.signature {
+    font-family: signerica;
+    font-size: 5vh;
+    font-weight: 700;
+    word-spacing: -10px;
+}
+
 .about-img-div img {
     margin: 0 auto;
+}
+
+@font-face {
+    font-family: signerica;
+    src: url(../fonts/Signerica_Fat.ttf) format("truetype");
 }
 
 .about-border {
@@ -524,7 +585,7 @@ h1.software, h1.engineer {
     opacity: 0;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    color: #333;
+    /* color: #333; */
 }
 
 .portfolio_item .portfolio_item_hover .item_info {
@@ -596,10 +657,10 @@ h1.software, h1.engineer {
     text-align: center;
 }
 
-.portfolio_item img {
+/* .portfolio_item img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-}
+} */
 
 .portfolio-padding {
     padding: 50px 0;
@@ -607,12 +668,13 @@ h1.software, h1.engineer {
 
 .portfolio-inner {
     padding-bottom: 0 !important;
-    padding-top: 55px;
+    padding-top: 50px;
 }
+
 
 .modal-content {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
-    border: none;
+    border: 5px;
 }
 
 .popup-modal {
@@ -751,30 +813,31 @@ fieldset {
     width: 100%;
 }
 
-.social {
+/* .social {
     padding-left: 0;
     list-style: none;
     margin-top: 20px;
 }
 
 .social li {
-    float: left;
-}
+    float: right;
+} */
 
-.social li a {
+/* .social li a {
     color: #333;
     font-size: 35px;
-    margin-right: 15px;
+    /* margin-right: 15px; */
     transition: all .3s;
     -webkit-transition: all .3s;
-}
+} */
 
-.social li a:hover {
+/* .social li a:hover {
     color: #f8b44d;
-}
+} */
+
 
 p.contact-email {
-    font-size: 20px;
+    font-size: 23px;
     color: #f8b44d;
     font-style: italic;
 }
