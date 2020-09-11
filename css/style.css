@@ -25,6 +25,7 @@
 ==================================================*/
 
 @import 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i';
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 /*
 font-family: 'Playfair Display', serif;
@@ -298,14 +299,7 @@ nav li a {
     transition: all .5s;
 }
 
-.contact-icon {
-    margin-bottom: 10px;
-}
 
-.social {
-    display: inline-block;
-    justify-content: end;
-}
 
 .bg-nav {
     background: #fff;
@@ -379,6 +373,11 @@ h1.software, h1.engineer {
     word-spacing: -10px;
 }
 
+.about-img-div {
+    display: flex;
+    flex-direction: column;
+}
+
 .about-img-div img {
     margin: 0 auto;
 }
@@ -397,6 +396,17 @@ h1.software, h1.engineer {
     left: 50px;
     z-index: 1
 }
+
+.social ul {
+    display: flex;
+    list-style: none;
+}
+
+.social ul li {
+    margin-left: 20px;
+    
+}
+
 
 
 /* experience section
@@ -610,7 +620,8 @@ h1.software, h1.engineer {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: rgb(184, 190, 228);
+    /*background-color: rgb(184, 190, 228);*/
+    background-image: linear-gradient(45deg, rgb(120, 148, 238), rgb(224, 227, 247));
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     opacity: 0;
@@ -658,7 +669,8 @@ h1.software, h1.engineer {
 .portfolio_item .portfolio_createtsy_hover .item_info span {
     display: block;
     color: #fff;
-    font-size: 25px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 35px;
     -webkit-transform: translateY(-100px);
     transform: translateY(-100px);
     -webkit-transition: all .3s ease-in-out .3s;
@@ -669,7 +681,8 @@ h1.software, h1.engineer {
 .portfolio_item .portfolio_pawrents_hover .item_info span {
     display: block;
     color: rgb(57, 33, 244);
-    font-size: 25px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 35px;
     -webkit-transform: translateY(-100px);
     transform: translateY(-100px);
     -webkit-transition: all .3s ease-in-out .3s;
@@ -680,7 +693,8 @@ h1.software, h1.engineer {
 .portfolio_item .portfolio_flexboard_hover .item_info span {
     display: block;
     color: #fff;
-    font-size: 25px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 35px;
     -webkit-transform: translateY(-100px);
     transform: translateY(-100px);
     -webkit-transition: all .3s ease-in-out .3s;
@@ -689,7 +703,7 @@ h1.software, h1.engineer {
 }
 
 .portfolio_item .portfolio_createtsy_hover .item_info p {
-    font-style: normal;
+    font-family: 'Patrick Hand', cursive;
     display: inline-block;
     background-color: rgb(227, 128, 124);
     padding: 5px 20px;
@@ -700,12 +714,12 @@ h1.software, h1.engineer {
     -webkit-transition: all .3s ease-in-out .3s;
     transition: all .3s ease-in-out .3s;
     opacity: 0;
-    font-size: 15px;
+    font-size: 19px;
     letter-spacing: 2px;
 }
 
 .portfolio_item .portfolio_pawrents_hover .item_info p {
-    font-style: normal;
+    font-family: 'Patrick Hand', cursive;
     display: inline-block;
     background-color: rgb(236, 248, 254);
     padding: 5px 20px;
@@ -716,14 +730,14 @@ h1.software, h1.engineer {
     -webkit-transition: all .3s ease-in-out .3s;
     transition: all .3s ease-in-out .3s;
     opacity: 0;
-    font-size: 15px;
+    font-size: 19px;
     letter-spacing: 2px;
 }
 
 .portfolio_item .portfolio_flexboard_hover .item_info p {
-    font-style: normal;
+    font-family: 'Patrick Hand', cursive;
     display: inline-block;
-    background-color: rgb(184, 190, 228);
+    /*background-color: rgb(184, 190, 228);*/
     padding: 5px 20px;
     color: #fff;
     margin-top: 10px;
@@ -732,7 +746,7 @@ h1.software, h1.engineer {
     -webkit-transition: all .3s ease-in-out .3s;
     transition: all .3s ease-in-out .3s;
     opacity: 0;
-    font-size: 15px;
+    font-size: 19px;
     letter-spacing: 2px;
 }
 
@@ -825,6 +839,10 @@ h1.software, h1.engineer {
     font-family: 'Playfair Display', serif;
     font-size: 40px;
     line-height: 50px;
+}
+
+.ion-close-round {
+    font-size: 3.5rem;
 }
 
 
