@@ -812,7 +812,7 @@ h1.software, h1.engineer {
     border: 5px;
 }
 
-.popup-modal {
+/* .popup-modal {
     background: #fff;
 }
 
@@ -829,17 +829,17 @@ h1.software, h1.engineer {
     position: fixed;
     z-index: 100000;
     right: 14px;
-}
+} */
 
-.animatedModal-on .close-popup-modal {
+/* .animatedModal-on .close-popup-modal {
     opacity: 1;
-}
+} */
 
-.modal-content h2 {
+/* .modal-content h2 {
     font-family: 'Playfair Display', serif;
     font-size: 40px;
     line-height: 50px;
-}
+} */
 
 .ion-close-round {
     font-size: 3.5rem;
