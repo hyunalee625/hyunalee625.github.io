@@ -806,6 +806,13 @@ h1.software, h1.engineer {
     padding-top: 50px;
 }
 
+.createtsy .findmypawrents .flexboard {
+    font-size: 17px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
 
 /* .modal-content {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
