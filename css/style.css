@@ -344,14 +344,14 @@ a.active {
     height: 100vh;
 }
 
-h1.engineer {
+h1.software-engineer {
     margin-top: -20px;
     margin-left: 120px;
     /* color: white; */
     color: lightgray;
 }
 
-h1.software, h1.engineer {
+h1.product-manager, h1.software-engineer {
     font-style: italic;
     /* color: white; */
     color: lightgray;
